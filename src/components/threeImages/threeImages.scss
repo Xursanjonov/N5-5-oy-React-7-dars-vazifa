@@ -1,0 +1,65 @@
+.threeImages {
+    width: 1300px;
+    padding: auto;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+    &:hover {
+        box-shadow: 0 0 2px gray;
+    }
+
+    &__img1 {
+        width: 450px;
+        height: 330px;
+        padding: 4rem;
+        object-fit: contain;
+        background-color: white;
+    }
+    &__title {
+        width: 450px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: red;
+
+        &__p1{
+            color: black;
+            font-weight: 800;
+            font-size: 24px;
+        }
+        &__p2{
+            color: white;
+            font-weight: 800;
+            font-size: 24px;
+        }
+    }
+    &__img3 {
+        width: 450px;
+        height: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+}
+
+@media (max-width: 780px) {
+    .threeImages {
+        width: 450px;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__img1 {
+            margin: 0 auto;
+        }
+    }
+}

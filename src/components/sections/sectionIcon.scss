@@ -1,0 +1,21 @@
+.section__icon {
+    margin: 2rem auto;
+  gap: 1.5rem;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &__p {
+    width: 30px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: orangered;
+  }
+  &__title {
+    color: black;
+    font-size: 17px;
+    background-color: transparent;
+  }
+}
