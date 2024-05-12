@@ -6,6 +6,8 @@ import ThreeCards from "./components/threeCards/ThreeCards"
 import { threeProducts } from "./static"
 import ThreeImages from "./components/threeImages/ThreeImages"
 import SectionIcon from "./components/sections/SectionIcon"
+import ShopPremium from "./components/shopPremium/ShopPremium"
+import ProductSlider from "./components/productSlider/ProductSlider"
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
       <Header />
       <main className="main container">
         <Haro />
+        <ProductSlider />
         <section className='SectionTitle'>
           <SectionIcon name={'about us'} />
           <h1 className="sectionTitle__text"> If you're looking for a Premium Quality Tempered Glass or Back-cover for your Device </h1>
@@ -24,6 +27,7 @@ function App() {
           </p>
         </section>
         <ThreeImages />
+        <ShopPremium />
         <SectionIcon name='Why Choose US' />
         <section className="threeCards"> {threeCard} </section>
       </main>
